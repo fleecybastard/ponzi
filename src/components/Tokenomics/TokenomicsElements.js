@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+
 export const TokenomicsContainer = styled.div`
 display: flex;
 flex-direction: column;
@@ -83,3 +84,4 @@ export const Text = styled.p`
 font-size: 0.8rem;
 margin-bottom: 20px;
 `
+

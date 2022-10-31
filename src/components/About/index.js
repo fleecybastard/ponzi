@@ -1,5 +1,5 @@
 import React from 'react'
-import { AboutContainer, AboutHeader, AboutWrapper, AboutContent, AboutBlock, Image, TextWrapper, TextHeader, Text } from './AboutElements'
+import { AboutContainer, AboutHeader, AboutWrapper, AboutContent, AboutBlock, Image, TextWrapper, TextHeader, Text, CoinBefore, CoinAfter } from './AboutElements'
 import about_1 from '../../images/about_1.png'
 import about_2 from '../../images/about_2.png'
 
@@ -13,6 +13,7 @@ const About = () => {
         <AboutWrapper>
             <AboutContent>
                 <AboutBlock>
+                    <CoinBefore></CoinBefore>
                     <Image src={about_1}/>
                     <TextWrapper>
                         <TextHeader>
@@ -25,6 +26,7 @@ const About = () => {
                     </TextWrapper>
                 </AboutBlock>
                 <AboutBlock>
+                    <CoinAfter></CoinAfter>
                     <Image src={about_2}/>
                     <TextWrapper>
                         <TextHeader>

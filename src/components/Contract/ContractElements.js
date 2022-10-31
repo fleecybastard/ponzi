@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+
 export const ContractContainer = styled.div`
 background: #180925;
 padding-bottom: 30px;`
@@ -130,5 +131,7 @@ transform: translateX(-10%);
     width: 80%;
     transform: none;
 }`
+
+
 
 

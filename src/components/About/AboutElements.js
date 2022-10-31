@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import coin from '../../images/coin.png'
 
 export const AboutContainer = styled.div`
 background: #180925;`
@@ -46,7 +47,45 @@ justify-content: space-evenly;
 {
     justify-content: center;
     text-align: center;
-}`
+}
+
+
+`
+
+export const CoinBefore = styled.div`
+&::before {
+    content: '';
+    background:  url(${coin});
+    position: absolute;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    width: 200px;
+    height: 200px;
+    right: 45px;
+    transform: rotate(50deg);
+    
+}
+`
+
+export const CoinAfter = styled.div`
+&::after {
+    content: '';
+    background:  url(${coin});
+    position: absolute;
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 200px;
+    height: 200px;
+    left: 45px;
+    transform: rotate(180deg);
+    
+    
+}
+`
 
 export const AboutBlock = styled.div`
 width: 50%;
@@ -57,7 +96,8 @@ align-items: center;
 {
     width: 100%;
     margin-bottom: 20px;
-}`
+}
+`
 
 export const Image = styled.img`
 height: auto;
@@ -81,6 +121,8 @@ justify-content: center;
 
 export const TextHeader =styled.h2`
 color: #FFC600;
+font-weight: bold;
+margin-bottom: 20px;
 `
 
 export const Text = styled.p`

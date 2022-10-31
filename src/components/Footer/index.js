@@ -11,6 +11,7 @@ const Footer = () => {
   return (
     <>
         <FooterContainer>
+            
             <FooterWrapper>
                 <RulesWrapper>
                     <RulesHeader>Rules</RulesHeader>

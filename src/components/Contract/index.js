@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import {FaCopy} from 'react-icons/fa'
 import { ContractContainer, ContractHeader, ContractWrapper, ContractAddress, Text, CopyButton, ContractDetails, Column1, Column2, Cards, Card, Image } from './ContractElements'

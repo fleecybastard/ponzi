@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import styled from "styled-components"
+import gold from '../../images/gold.png'
 
 export const FooterContainer = styled.div`
 background: #180925;
