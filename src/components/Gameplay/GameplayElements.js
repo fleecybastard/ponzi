@@ -76,13 +76,15 @@ export const Text = styled.p`
 `
 
 export const Button = styled.a`
+font-weight: bold;
 width: 160px;
 padding: 15px 20px;
 background: #E0DE28;
-border: 3px solid #fff;
+border: 4px solid #fff;
 text-align: center;
 &:hover {
     cursor: pointer;
     background: #ffffff;
     color: #000000;
+    border-color: #E0DE28;
 }`
