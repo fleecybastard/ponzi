@@ -11,6 +11,7 @@ import o from '../../images/o.png'
 import n from '../../images/n.png'
 import z from '../../images/z.png'
 import i from '../../images/i.png'
+import {LINKS} from '../config'
 
 const Home = () => {
   return (
@@ -25,14 +26,14 @@ const Home = () => {
                     <Letter src={z}></Letter>
                     <Letter src={i}></Letter>
                 </Logo>
-                <PlayButton>PLAY PONZI</PlayButton>
+                <PlayButton href={LINKS.PONZI_GAME}>PLAY PONZI</PlayButton>
             </Ponzi>
             <Links>
-                <PixelLink {...{img:telegram, href:'', color: '#127A00'}}/>
-                <PixelLink {...{img:twitter, href:'', color: '#127A00'}}/>
-                <PixelLink {...{img:etherscan, href:'', color: '#127A00'}}/>
-                <PixelLink {...{img:github, href:'', color: '#127A00'}}/>
-                <PixelLink {...{img:medium, href:'', color: '#127A00'}}/>
+                <PixelLink {...{img:telegram, href: LINKS.TELEGRAM, color: '#127A00'}}/>
+                <PixelLink {...{img:twitter, href: LINKS.TWITTER, color: '#127A00'}}/>
+                <PixelLink {...{img:etherscan, href: LINKS.ETHERSCAN, color: '#127A00'}}/>
+                <PixelLink {...{img:github, href: LINKS.GITHUB, color: '#127A00'}}/>
+                <PixelLink {...{img:medium, href: LINKS.MEDIUM, color: '#127A00'}}/>
               </Links>
           
         </HomeContent>

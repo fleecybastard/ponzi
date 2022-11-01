@@ -79,6 +79,8 @@ export const PlayButton = styled.a`
 width: 160px;
 padding: 15px 20px;
 font-weight: bold;
+text-decoration: none;
+color: inherit;
 background: #E0DE28;
 border: 4px solid #fff;
 text-align: center;

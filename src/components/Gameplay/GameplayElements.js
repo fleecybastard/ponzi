@@ -80,6 +80,8 @@ font-weight: bold;
 width: 160px;
 padding: 15px 20px;
 background: #E0DE28;
+text-decoration: none;
+color: inherit;
 border: 4px solid #fff;
 text-align: center;
 &:hover {

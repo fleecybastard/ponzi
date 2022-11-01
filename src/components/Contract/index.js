@@ -4,6 +4,7 @@ import {FaCopy} from 'react-icons/fa'
 import { ContractContainer, ContractHeader, ContractWrapper, ContractAddress, Text, CopyButton, ContractDetails, Column1, Column2, Cards, Card, Image } from './ContractElements'
 import globe from '../../images/globe.png'
 import {ShakeSlow} from 'reshake'
+import { CONTRACT_ADDRESS } from '../config'
 
 const Contract = () => {
   return (
@@ -16,9 +17,9 @@ const Contract = () => {
             
             <ContractAddress>
                 <Text>
-                0x654f8C82217d4a5d0Ad37B4D8bf1130Dfdf52eb9
+                {CONTRACT_ADDRESS}
                 </Text>
-                <CopyToClipboard text='0x654f8C82217d4a5d0Ad37B4D8bf1130Dfdf52eb9'>
+                <CopyToClipboard text={CONTRACT_ADDRESS}>
                     <CopyButton><FaCopy/></CopyButton>
                 </CopyToClipboard>
             </ContractAddress>

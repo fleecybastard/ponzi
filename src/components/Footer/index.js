@@ -6,6 +6,7 @@ import telegram from '../../images/telegram.png'
 import twitter from '../../images/twitter.png'
 import medium from '../../images/medium.png'
 import etherscan from '../../images/etherscan.png'
+import {LINKS, EMAIL_ADDRESS} from '../config'
 
 const Footer = () => {
   return (
@@ -25,14 +26,14 @@ const Footer = () => {
                 </Rights>
                 <LinksWrapper>
                     <Links>
-                        <PixelLink {...{img:telegram, href:'', color: '#ffffff'}}/>
-                        <PixelLink {...{img:twitter, href:'', color: '#ffffff'}}/>
-                        <PixelLink {...{img:etherscan, href:'', color: '#ffffff'}}/>
-                        <PixelLink {...{img:github, href:'', color: '#ffffff'}}/>
-                        <PixelLink {...{img:medium, href:'', color: '#ffffff'}}/>
+                        <PixelLink {...{img:telegram, href:LINKS.TELEGRAM, color: '#ffffff'}}/>
+                        <PixelLink {...{img:twitter, href:LINKS.TWITTER, color: '#ffffff'}}/>
+                        <PixelLink {...{img:etherscan, href:LINKS.ETHERSCAN, color: '#ffffff'}}/>
+                        <PixelLink {...{img:github, href:LINKS.GITHUB, color: '#ffffff'}}/>
+                        <PixelLink {...{img:medium, href:LINKS.MEDIUM, color: '#ffffff'}}/>
                     </Links>
                     <Email>
-                        Email: ponzi@ponzi.is 
+                        Email: {EMAIL_ADDRESS}
                     </Email>
                 </LinksWrapper>
                 

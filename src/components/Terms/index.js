@@ -1,5 +1,6 @@
 import React from 'react'
 import { TermsContainer, TermsHeader, TermsSubHeader, TermsContent, TermsP, Br } from './TermsElements'
+import {EMAIL_ADDRESS} from '../config'
 
 const Terms = () => {
   return (
@@ -90,7 +91,7 @@ const Terms = () => {
         <TermsP>
           If you have any questions about this Privacy Policy, please contact us:<br/>
           <br/>
-          Email: ponzi@ponzi.is <br/>
+          Email: {EMAIL_ADDRESS} <br/>
         </TermsP>
       </TermsContent>
     </TermsContainer>

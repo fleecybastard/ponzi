@@ -205,6 +205,8 @@ padding: 15px 20px;
 background: #E0DE28;
 border: 4px solid #9D9C1B;
 text-align: center;
+text-decoration: none;
+color: inherit;
 &:hover {
     cursor: pointer;
     background: #ffffff;
