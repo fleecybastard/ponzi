@@ -3,8 +3,49 @@ import styled from "styled-components"
 import gold from '../../images/gold.png'
 
 export const FooterContainer = styled.div`
+
 background: #180925;
 color: #ffffff;
+display: flex;
+flex-direction: column;
+
+
+&::after {
+    content: '';
+    width: 12rem;
+    height: 10rem;
+    margin-top: 1.1rem;
+    right: -5%;
+    background:  url(${gold});
+    position: absolute;
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+&::before {
+    content: '';
+    width: 12rem;
+    height: 10rem;
+    margin-top: 1.1rem;
+    left: -5%;
+    background:  url(${gold});
+    position: absolute;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+@media screen and (max-width: 935px)
+{
+    &::before {
+        content: none;
+    }
+    &::after {
+        content: none;
+    }
+}
+
 `
 
 export const FooterWrapper = styled.div`
@@ -73,3 +114,13 @@ font-weight: 400;
     display: none;
 }
 `
+
+export const GoldImage = styled.img`
+margin: 0 auto;
+width: 200px;
+height: auto;
+display: none;
+@media screen and (max-width: 900px)
+{
+    display: block;
+}`

@@ -7,7 +7,7 @@ import Tokenomics from '../components/Tokenomics';
 import Contract from '../components/Contract';
 import Footer from '../components/Footer';
 // import Gameplay from '../components/Gameplay';
-import Gameplay from '../components/Gameplay2';
+import Gameplay from '../components/Gameplay';
 import ScrollToTop from '../components/ScrollToTop';
 
 const HomePage = ()  => {

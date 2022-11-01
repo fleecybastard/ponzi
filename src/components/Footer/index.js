@@ -1,12 +1,13 @@
 import React from 'react'
 import PixelLink from '../PixelLink'
-import { FooterContainer, FooterWrapper, RulesWrapper, RulesHeader, Rules, PrivacyPolicy, Rights, LinksWrapper, Links, Email } from './FooterElements'
+import { FooterContainer, FooterWrapper, RulesWrapper, RulesHeader, Rules, PrivacyPolicy, Rights, LinksWrapper, Links, Email, GoldImage } from './FooterElements'
 import github from '../../images/github.png'
 import telegram from '../../images/telegram.png'
 import twitter from '../../images/twitter.png'
 import medium from '../../images/medium.png'
 import etherscan from '../../images/etherscan.png'
 import {LINKS, EMAIL_ADDRESS} from '../config'
+import gold from '../../images/gold.png'
 
 const Footer = () => {
   return (
@@ -36,8 +37,9 @@ const Footer = () => {
                         Email: {EMAIL_ADDRESS}
                     </Email>
                 </LinksWrapper>
-                
+            
             </FooterWrapper>
+            <GoldImage src={gold}/>
         </FooterContainer>
     </>
   )
