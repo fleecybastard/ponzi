@@ -85,6 +85,7 @@ grid-gap: 20px;
 @media screen and (max-width: 900px)
 {
     grid-template-columns: 1fr;
+    
 }
 `
 
@@ -101,12 +102,14 @@ gap: 20px;
 justify-content: center;`
 
 export const Card = styled.div`
+
 padding: 40px 20px;
 background: #fff;
 text-align: center;
 color: #000;
 font-weight: bold;
 border: 4px solid #9A9A9A;
+
 &:hover
 {
     transform: scale(1.1);
@@ -115,6 +118,10 @@ border: 4px solid #9A9A9A;
     border-color: #fff;
     box-shadow: 0 0 10px #fff, 0 0 10px #fff,  0 0 10px #fff;
     background: ${props => props.color};
+    @media screen and (max-width: 900px)
+    {
+        transform: none;
+    }
     
 }
 
@@ -128,7 +135,7 @@ width: 400px;
 transform: translateX(-10%);
 @media screen and (max-width: 900px)
 {
-    width: 80%;
+    width: 300px;
     transform: none;
 }`
 

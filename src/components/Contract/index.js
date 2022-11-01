@@ -36,8 +36,8 @@ const Contract = () => {
                         <Card color='#947536'>AUDITED & KYC</Card>
                     </Column2>
                 </Cards>
-                <ShakeSlow>
-                    <Image src={globe}/>
+                <ShakeSlow >
+                    <Image  src={globe}/>
                 </ShakeSlow>
             </ContractDetails>
         </ContractWrapper>

@@ -6,7 +6,7 @@ background: #180925;
 display: flex;
 justify-content: center;
 position: relative;
-align-items: center;
+align-items: flex-start;
 background-image: url(${image});
 background-repeat:no-repeat;
 -webkit-background-size:cover;
@@ -24,12 +24,14 @@ export const HomeContent = styled.div`
 position: absolute;
 display: flex;
 flex-direction: column;
-align-items: center;
+align-items: flex-start;
+justify-content: flex-start;
+padding-top: 100px;
 `
 
 export const Links= styled.div`
 position: absolute;
-top: 35%;
+top: 75%;
 left: 5%;
 transform: translateY(-50%);
 display: flex;
@@ -53,6 +55,7 @@ align-items: center;
 `
 
 export const Logo = styled.div`
+
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -62,6 +65,7 @@ justify-content: center;
 `
 
 export const Letter = styled.img`
+
 width: 15%;
 height: auto;
 /* transform: translateY(-15%); */

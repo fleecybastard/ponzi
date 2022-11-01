@@ -9,6 +9,7 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <link href="http://fonts.cdnfonts.com/css/arcade-classic" rel="stylesheet">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -39,5 +40,10 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      document.getElementById('#image-1').style.width = '900px'
+      const image_2 = document.getElementById('#image-2')
+      image_2.addEventListener('onmouseover', function(){console.log('Hello')})
+    </script>
   </body>
 </html>

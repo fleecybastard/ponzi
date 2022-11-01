@@ -63,7 +63,7 @@ export const CoinBefore = styled.div`
     -o-background-size:cover;
     width: 200px;
     height: 200px;
-    right: 45px;
+    right: 47px;
     transform: rotate(50deg);
     
 }
@@ -80,7 +80,7 @@ export const CoinAfter = styled.div`
     -o-background-size: cover;
     width: 200px;
     height: 200px;
-    left: 45px;
+    left: 47px;
     transform: rotate(180deg);
     
     
